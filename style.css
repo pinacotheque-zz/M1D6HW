@@ -1,3 +1,101 @@
-.anc a{
-    color: red;
+@import url("https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    height: max-content;
+  }
+
+  h1{
+      padding: 50px;
+    color: rgb(4, 122, 122);
+    font-family: "Antic Slab", serif;
+    font-weight: 100%;
+    font-size: 30px;
+    background-color: rgb(230, 207, 230);
 }
+
+table {
+    padding: 20px;
+    display: flex;
+    height: fit-content;
+    font-family: "Antic Slab", serif;
+    justify-content: space-between;
+    width: fit-content;
+}
+
+.table th{
+    padding: 25px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    color: rgb(63, 86, 109);
+}
+
+.table td {
+    padding: 25px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.table h3 {
+    width: 220px;
+}
+
+.table h4 {
+    width: 400px;
+}
+
+.table tr img {
+height: 190px;
+  width: 130px;
+  align-items: baseline;
+  object-fit: cover;
+  border: 1px solid rgb(147, 173, 199);
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.contact {
+bottom: 0px;
+  font-family: "Antic Slab", serif;
+  height: 50vh;
+}
+
+.contact .contact-content {
+    margin-bottom: 0;
+  display: flex;
+  padding: 30px;
+  align-items: baseline;
+  text-align: center;
+  justify-content: space-between;
+  background-color: rgb(233, 220, 233);
+}
+.contact .contact-content .text1 {
+  font-size: 20px;
+  color: rgb(71, 87, 107);
+  padding: 15px;
+}
+
+.contact .contact-content .left img {
+  height: 50px;
+  width: 50px;
+  align-items: baseline;
+  object-fit: cover;
+  border-radius: 200px; 
+}
+.contact .contact-content .left a {
+  text-align: justify;
+  color: rgb(71, 87, 107);
+  font-size: 20px;
+  padding: 50px 20px;
+}
+
+.contact .contact-content .row {
+  display: inline-flex;
+  height: fit-content;
+  align-items: center;
+  padding-left: 20px;
+}
+
