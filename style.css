@@ -57,6 +57,10 @@ height: 190px;
   padding: 5px;
 }
 
+.hidden {
+  visibility: hidden;
+}
+
 .contact {
 bottom: 0px;
   font-family: "Antic Slab", serif;
